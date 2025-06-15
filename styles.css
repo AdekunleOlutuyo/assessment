@@ -1,0 +1,85 @@
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #737382;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.calculator {
+  background-color: #242530;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 376px;
+  margin: 0 auto;
+}
+.output {
+  background-color: #3a3f77;
+  width: 350px;
+  height: 70px;
+  border: none;
+  border-radius: 15px;
+  margin: 20px;
+  margin-bottom: 0;
+  font-size: 2.5rem;
+  text-align: right;
+  color: WHITE;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: auto;
+  gap: 10px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+.buttons > button {
+  width: 79px;
+  background-color: #404258;
+  border: none;
+  color: white;
+  border-radius: 25px;
+}
+/* 
+.material-icons {
+  color: white;
+  padding: 0;
+} */
+
+.operators {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.button_operators {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.button_operators > button {
+  background-color: orange;
+  border: none;
+  width: 55px;
+  height: 50px;
+  border-radius: 50%;
+  color: white;
+}
+
+.equalTo {
+  width: 116px;
+  height: 55px;
+  border: none;
+  border-radius: 25px;
+}
